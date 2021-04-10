@@ -281,3 +281,38 @@ div.score {
   width: 82%;
   background-color:#6E1DF9;
 }
+
+/* Section - Projetos */
+
+.logo-github {
+  width: 7rem;
+  height: 4rem;
+}
+
+.nameproject {
+  font-size: 1.7rem;
+}
+
+input.btn-project {
+  /* width: 8rem;
+  height: 2rem; */
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  outline: 0;
+  border: 2px solid #6E1DF9;
+  background-color: #6E1DF9;
+  color: #fff;
+  margin-top: 15px;
+  cursor: pointer;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
+}
+
+input.btn-project:hover {
+  background-color: transparent;
+  -webkit-box-shadow: 0px 0px 19px 4px rgba(0, 0, 0, 0.753); 
+  box-shadow: 0px 0px 19px 4px rgba(0, 0, 0, 0.753);
+  transition: .4s;
+  color: #6E1DF9;
+}
