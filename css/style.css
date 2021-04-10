@@ -238,7 +238,46 @@ desc {
   border-radius: 10px;
 }
 
-
 h3.tecno-name {
   font-size: 1.5rem;
+}
+
+div.item-tecno {
+  height: 4.5rem;
+  background-color: #5E6165;
+  border-radius: 15px;
+  margin: 1rem 0;
+}
+
+div.img-tecno {
+  width: 4rem;
+  height: 100%;
+  background-color: #4F5255;
+  border-radius: 15px 0 0 15px;
+}
+
+div.tecno-property {
+  padding:.7rem;
+  width: calc(100% - 4rem);
+}
+
+h3.title-tecno {
+  font-size: 1.2rem;
+}
+
+p.level {
+  font-size: .80rem;
+}
+
+div.container-score-tecno {
+  height: 4px;
+  width: 100%;
+  background-color: #252728;
+  margin-top: .7rem;
+}
+
+div.score {
+  height: 100%;
+  width: 82%;
+  background-color:#6E1DF9;
 }
